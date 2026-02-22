@@ -1,227 +1,97 @@
+---
+title: "Aviso Legal y Acuerdo de Licencia"
+subtitle: "Términos de Uso, Propiedad Intelectual y Exención de Responsabilidad"
+author: "Salvador Ferrer Moncho"
+---
+
+# AVISO LEGAL Y ACUERDO DE LICENCIA
+### PROTOCOLO DE PROPIEDAD INTELECTUAL Y TÉRMINOS DE SERVICIO
 ================================================================================
 META FORGE v5 - DUAL LICENSING AGREEMENT
-Manual de Ingeniería de Prompt - Sistema ASI (Artificial Specific Intelligence)
+Repositorio Oficial: https://github.com/salvadorferrer-metaforge/metaforge-v5
 ================================================================================
 
-Copyright (c) 2026 Salvador Ferrer Moncho
-All Rights Reserved.
+> *"Advertencia Preliminar: El contenido técnico expuesto en esta obra, incluyendo específicamente los bloques de instrucciones denominados 'System Prompts', 'Primitivos Cognitivos' y 'Arquitecturas de Agente', posee la naturaleza jurídica de código fuente y algoritmo lógico. Su uso está regulado bajo los siguientes términos contractuales."*
 
-Este documento establece los términos de licenciamiento dual para el software,
-documentación y materiales asociados del proyecto META FORGE v5, incluyendo:
-- SYSTEM_PROMPT_CORE_v5 (Meta-Agente Constructor)
-- Cognitive Primitives Atlas (54 primitivas cognitivas)
-- Libro Maestro de Conocimiento Pedagógico y Técnico
-- Operador de Enlace (Navigator)
-- Todas las herramientas, plantillas y ejemplos
+El presente documento constituye un acuerdo vinculante entre el Autor (Salvador Ferrer Moncho) y el Usuario (Lector/Operador). El acceso, lectura o ejecución de los códigos contenidos en este manual implica la aceptación incondicional de las siguientes cláusulas.
 
-================================================================================
-SECCIÓN 1: DEFINICIONES
-================================================================================
+---
 
-1.1 "Software Cognitivo" o "Artefactos": Código fuente, prompts de sistema,
-    configuraciones YAML/JSON/XML, primitivas cognitivas, documentación técnica
-    y cualquier material derivado del proyecto META FORGE v5.
+## 1. NATURALEZA DE LA OBRA Y PROPIEDAD INTELECTUAL
 
-1.2 "Usuario Individual": Persona natural que utiliza el Software Cognitivo
-    para fines personales, educativos o de investigación no comercial.
+De conformidad con lo establecido en el **Texto Refundido de la Ley de Propiedad Intelectual (RDL 1/1996)** y los tratados internacionales de la OMPI:
 
-1.3 "Pequeña Empresa" (PYME según definición UE):
-    - Menos de 250 empleados de tiempo completo (FTE)
-    - Facturación anual ≤ 50 millones de euros
-    - Balance general anual ≤ 43 millones de euros
-    - No pertenecer a un grupo empresarial que exceda estos límites
+1.  **Clasificación de la Obra:** Esta obra es una creación híbrida que integra componentes literarios (ensayo técnico) y componentes de software (instrucciones de programación en lenguaje natural estructurado o "System Prompts").
+2.  **Protección del Código:** Los "System Prompts" y estructuras lógicas (XML/JSON/YAML) presentados no son meras ideas abstractas (excluidas de protección por el Art. 10 LPI *a sensu contrario*), sino la expresión concreta, original y técnica de un algoritmo de procesamiento de información. Por tanto, están protegidos como **Código Fuente** y obra literaria.
+3.  **Titularidad:** Todos los derechos de explotación, reproducción, distribución y comunicación pública están reservados exclusivamente al Autor. El registro de la propiedad intelectual ha sido depositado bajo la certificación correspondiente **[Safe Creative ID: PENDIENTE_ASIGNACION]**.
 
-1.4 "Gran Empresa": Cualquier entidad que no cumpla con la definición de
-    Pequeña Empresa según los umbrales establecidos en 1.3.
+---
 
-1.5 "Uso Comercial": Cualquier uso del Software Cognitivo que:
-    - Genere ingresos directos o indirectos
-    - Forme parte de productos o servicios ofrecidos a terceros
-    - Se integre en sistemas empresariales de producción
-    - Se utilice en consultoría remunerada
-    - Soporte actividades de negocio con fines de lucro
+## 2. MODELO DE LICENCIAMIENTO DUAL (DUAL LICENSING)
 
-1.6 "Período de Prueba": 90 días naturales desde el primer uso en producción.
+En virtud del **Artículo 1255 del Código Civil** (Autonomía de la Voluntad) y el **Artículo 17 de la LPI** (Derecho exclusivo de explotación), el Autor establece un esquema de licenciamiento dual para el uso del código contenido en este manual.
 
-================================================================================
-SECCIÓN 2: MODELO DE LICENCIAMIENTO DUAL
-================================================================================
+El usuario debe identificar su perfil de uso para determinar la licencia aplicable:
 
-El Usuario debe identificar su perfil y seleccionar la licencia aplicable:
+### A. LICENCIA DE USO GRATUITO (PERSONAL Y ACADÉMICO)
+Se concede una licencia de uso no exclusiva, intransferible y gratuita a los usuarios que cumplan estrictamente las siguientes condiciones:
 
-------------------------------------------------------------------------------
-OPCIÓN A: LICENCIA DE USO GRATUITO (PERSONAL Y PYME)
-------------------------------------------------------------------------------
+*   **Entorno de Ejecución:** Uso en entornos locales, "sandboxes" personales o cuentas privadas de modelos de lenguaje (ChatGPT Plus, Claude Pro, etc.).
+*   **Finalidad:** Aprendizaje personal, investigación académica sin fines de lucro, experimentación técnica o auto-defensa legal privada.
+*   **Restricción:** Queda expresamente prohibida la integración de estos prompts en sistemas automatizados que presten servicio a terceros.
 
-Se concede una licencia de uso no exclusiva, intransferible, no sublicenciable
-y gratuita a los siguientes usuarios:
+### B. RESTRICCIÓN COMERCIAL (LICENCIA CORPORATIVA REQUERIDA)
+**Cualquier uso de la "Tecnología Cognitiva" (Prompts, Arquitecturas, Anclas) con fines de lucro directo o indirecto requiere la adquisición previa de una LICENCIA COMERCIAL.**
 
-A.1 PERSONAS NATURALES (USO PERSONAL/ACADÉMICO):
-    - Uso en entornos locales o cuentas privadas de LLMs
-    - Aprendizaje personal y auto-formación
-    - Investigación académica sin fines de lucro
-    - Experimentación técnica personal
+Se considera "Uso Comercial" y requiere licencia de pago:
+1.  **Integración en Productos:** Uso de los prompts como "backend" de aplicaciones SaaS, Chatbots corporativos o APIs.
+2.  **Consultoría:** Uso de las metodologías para prestar servicios remunerados de ingeniería de prompts a terceros.
+3.  **Entornos de Producción:** Despliegue de los agentes (ej: THEMIS, ARVA) en sistemas empresariales internos para optimización de procesos de negocio.
 
-A.2 PEQUEÑAS EMPRESAS (PYME):
-    - Uso interno en sistemas no productivos (desarrollo, pruebas)
-    - Uso en producción siempre que no exceda los umbrales PYME
-    - Modificación y adaptación para uso propio
-    - Distribución interna dentro de la organización
+> *El uso no autorizado con fines comerciales constituirá una infracción de los derechos de propiedad intelectual (Art. 138 y ss. LPI), dando lugar a la reclamación de la indemnización correspondiente más el lucro cesante.*
+>
+> **Para solicitar una Licencia Comercial ("Enterprise License"), contacte a:** metaforge.licensing@gmail.com
 
-CONDICIONES DE LA LICENCIA GRATUITA:
-✓ Uso permitido sin pago de royalties
-✓ Modificación del código para uso propio
-✓ Distribución interna autorizada
-✗ No se permite revender el Software Cognitivo como producto standalone
-✗ No se permite integración en productos SaaS sin licencia comercial
-✗ No se permite consultoría externa basada exclusivamente en estos artefactos
+---
 
-------------------------------------------------------------------------------
-OPCIÓN B: LICENCIA COMERCIAL ENTERPRISE (GRANDES EMPRESAS)
-------------------------------------------------------------------------------
+## 3. EXENCIÓN DE RESPONSABILIDAD (DISCLAIMER)
 
-Cualquier uso comercial por parte de Grandes Empresas REQUIERE licencia de pago.
+La **Ingeniería de Software Cognitivo** opera sobre sistemas estocásticos (Modelos de Lenguaje Grande) no deterministas por naturaleza.
 
-B.1 REQUIERE LICENCIA COMERCIAL:
-    - Integración en productos o servicios SaaS
-    - Uso en consultoría de ingeniería de prompts remunerada
-    - Despliegue en sistemas empresariales de producción
-    - Uso por parte de Grandes Empresas (según definición 1.4)
+1.  **Ausencia de Garantía:** El Autor proporciona los códigos y metodologías "tal cual" (*as is*), sin garantías explícitas o implícitas de funcionamiento libre de errores.
+2.  **Riesgo Operativo:** El Autor no se hace responsable de los daños directos, indirectos, incidentales o consecuentes derivados del uso de estos prompts. Esto incluye, pero no se limita a:
+    *   Pérdida de datos o corrupción de bases de datos.
+    *   Alucinaciones del modelo que resulten en información falsa.
+    *   Costes por consumo excesivo de tokens API.
+    *   Decisiones legales, médicas o financieras tomadas basándose en el output de los agentes (ej: Agente THEMIS).
+3.  **Responsabilidad del Operador:** El usuario reconoce que es el único responsable de supervisar, validar y auditar las respuestas generadas por la IA antes de su aplicación en el mundo real. **El "Human-in-the-Loop" (Supervisión Humana) es obligatorio.**
 
-B.2 PERÍODO DE PRUEVA (90 DÍAS):
-    - Las Grandes Empresas pueden evaluar el Software Cognitivo durante 90 días
-      naturales desde el primer uso en producción sin obligación de pago.
-    - El inicio del período de prueba se documenta mediante:
-      a) Declaración escrita del usuario, O
-      b) Registro en el sistema de auditoría (si está implementado)
-    - Al finalizar el período de prueba, debe adquirirse una Licencia Comercial
-      o cesar todo uso del Software Cognitivo.
+---
 
-B.3 SISTEMA DE "HONOR SYSTEM" CON AUDITORÍA:
-    - El usuario declara bajo su responsabilidad su clasificación (PYME/Grande)
-    - El Autor se reserva el derecho de solicitar documentación justificativa:
-      * Número de empleados (certificado oficial)
-      * Facturación anual (cuentas anuales auditadas)
-      * Estructura del grupo empresarial
-    - El incumplimiento de los umbrales sin licencia comercial constituye
-      violación de los derechos de propiedad intelectual.
+## 4. JURISDICCIÓN Y LEGISLACIÓN APLICABLE
 
-PARA ADQUIRIR LICENCIA COMERCIAL:
-    Email: metaforge.licensing@gmail.com
-    Teléfono: +34 603 834 630
+Para cualquier controversia que pudiera derivarse de la interpretación o ejecución de este acuerdo de licencia, las partes se someten a la legislación española y a la jurisdicción de los Juzgados y Tribunales de la ciudad de Nucia (la), Alicante, con renuncia expresa a cualquier otro fuero que pudiera corresponderles.
 
-================================================================================
-SECCIÓN 3: EXENCIÓN DE RESPONSABILIDAD (DISCLAIMER)
-================================================================================
+---
 
-3.1 NATURALEZA ESTOCÁSTICA:
-    El Software Cognitivo opera sobre Grandes Modelos de Lenguaje (LLMs) que
-    son sistemas estocásticos por naturaleza. NO SE GARANTIZA determinismo
-    absoluto en las respuestas generadas.
+### RESUMEN DE LICENCIA (Para copiar en cabeceras de código)
 
-3.2 AUSENCIA DE GARANTÍAS:
-    EL SOFTWARE COGNITIVO SE PROPORCIONA "TAL CUAL" (AS IS), SIN GARANTÍAS
-    DE NINGÚN TIPO, EXPRESAS O IMPLÍCITAS, INCLUYENDO PERO NO LIMITADO A:
-    - Garantías de comerciabilidad
-    - Idoneidad para un propósito particular
-    - No infracción de derechos de terceros
-    - Funcionamiento libre de errores
+```text
+----------------------------------------------------------------------------
+AVISO LEGAL Y ACUERDO DE LICENCIA (MODELO DUAL)
+© 2026 Salvador Ferrer Moncho. 
+Repositorio y Actualizaciones: https://github.com/salvadorferrer-metaforge/metaforge-v5
+----------------------------------------------------------------------------
 
-3.3 RIESGOS OPERATIVOS:
-    EL AUTOR NO SE HACE RESPONSABLE DE DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES,
-    ESPECIALES O CONSECUENCIALES, INCLUYENDO:
+1. USO PERSONAL/ACADÉMICO: PERMITIDO y GRATUITO.
+   Puede usar, modificar y ejecutar este prompt para aprendizaje y uso privado.
 
-    a) ALUCINACIONES: Información falsa o inexacta generada por el modelo
-    b) ERRORES DE RAZONAMIENTO: Decisiones incorrectas basadas en outputs
-    c) PÉRDIDA DE DATOS: Corrupción o eliminación accidental de información
-    d) COSTES DE TOKENS: Consumo excesivo de API de terceros
-    e) DECISIONES CRÍTICAS: Acciones legales, médicas, financieras o de
-       seguridad tomadas basándose en los outputs del sistema
+2. USO COMERCIAL/CORPORATIVO: PROHIBIDO SIN LICENCIA.
+   La integración en productos, servicios SaaS, consultoría o entornos 
+   empresariales requiere una Licencia Comercial ("Commercial License").
 
-3.4 OBLIGACIÓN DEL OPERADOR:
-    El usuario reconoce que es el ÚNICO RESPONSABLE de:
-    - Supervisar y validar todas las respuestas antes de su aplicación
-    - Implementar "Human-in-the-Loop" para decisiones de alto riesgo
-    - Auditar periódicamente el comportamiento del sistema
-    - Cumplir con regulaciones aplicables (GDPR, AI Act, etc.)
-
-3.5 LÍMITES DE RESPONSABILIDAD:
-    La responsabilidad total del Autor, en cualquier circunstancia, no excederá
-    el importe pagado por el usuario por la licencia (o cero en caso de uso
-    gratuito).
-
-================================================================================
-SECCIÓN 4: PROPIEDAD INTELECTUAL
-================================================================================
-
-4.1 Titularidad:
-    Todos los derechos de propiedad intelectual sobre el Software Cognitivo
-    pertenecen exclusivamente a Salvador Ferrer Moncho.
-
-4.2 Protección:
-    - Los System Prompts están protegidos como código fuente y obra literaria
-    - Las estructuras lógicas (XML/JSON/YAML) son expresión original técnica
-    - El registro de propiedad intelectual está depositado en Safe Creative
-
-4.3 Marcas:
-    "META FORGE", "ASI - Artificial Specific Intelligence", "Cognitive Primitives"
-    y logos asociados son marcas registradas.
-
-================================================================================
-SECCIÓN 5: CONDICIONES GENERALES
-================================================================================
-
-5.1 Modificaciones:
-    El Autor se reserva el derecho de modificar estos términos. Los cambios
-    entrarán en vigor 30 días después de su publicación.
-
-5.2 Rescisión:
-    El incumplimiento de cualquier término de esta licencia resultará en la
-    terminación automática de los derechos otorgados.
-
-5.3 Jurisdicción:
-    Este acuerdo se rige por las leyes de España. Cualquier controversia se
-    someterá a los Juzgados y Tribunales de Valencia, España.
-
-5.4 Divisibilidad:
-    Si alguna cláusula es declarada inválida, el resto del acuerdo mantendrá
-    su plena vigencia.
-
-5.5 Idioma:
-    Este acuerdo está redactado en español e inglés. En caso de discrepancia,
-    prevalecerá la versión española.
-
-================================================================================
-SECCIÓN 6: RESUMEN EJECUTIVO
-================================================================================
-
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ RESUMEN DE LICENCIA                                                         │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ✅ USO GRATUITO PERMITIDO:                                                 │
-│     • Personas naturales (uso personal/académico)                           │
-│     • Pequeñas empresas (<250 empleados, <50M€ facturación)                 │
-│     • Modificación para uso propio                                          │
-│                                                                             │
-│  ❌ REQUIERE LICENCIA COMERCIAL:                                            │
-│     • Grandes empresas (supera umbrales PYME)                               │
-│     • Integración en productos SaaS                                         │
-│     • Consultoría remunerada                                                │
-│     • Uso en producción empresarial crítica                                 │
-│                                                                             │
-│  ⚠️  SIN GARANTÍAS:                                                         │
-│     • El software se proporciona "tal cual"                                 │
-│     • El autor no es responsable de alucinaciones o errores                 │
-│     • Supervisión humana obligatoria para decisiones críticas               │
-│                                                                             │
-│  📧 Contacto para licencias comerciales: metaforge.licensing@gmail.com      │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-
-================================================================================
-
-Copyright © 2026 Salvador Ferrer Moncho
-"La estructura vence a la estocástica. La precisión vence a la ambigüedad."
-
-================================================================================
+3. SIN GARANTÍAS: 
+   Este software cognitivo se entrega "tal cual". El autor no es responsable 
+   de alucinaciones, errores o daños derivados de su ejecución.
+----------------------------------------------------------------------------
+```
