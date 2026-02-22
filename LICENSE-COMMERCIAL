@@ -1,0 +1,193 @@
+================================================================================
+META FORGE v5 - COMMERCIAL LICENSE AGREEMENT
+Enterprise License for Large Organizations
+================================================================================
+
+This Commercial License Agreement ("Agreement") is entered into between:
+
+LICENSOR: Salvador Ferrer Moncho
+          Author and Copyright Holder of META FORGE v5
+          
+LICENSEE: [Company Name]
+          [Company Registration Number]
+          [Address]
+          [Contact Email]
+
+Effective Date: [Date of License Purchase]
+License Term: [Annual / Perpetual]
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+"Licensed Software" refers to:
+- SYSTEM_PROMPT_CORE_v5 (Meta-Agent Constructor)
+- Cognitive Primitives Atlas (54 cognitive primitives)
+- Master Knowledge Books (Pedagogical and Technical)
+- Link Operator (Navigator)
+- All associated tools, templates, and examples
+
+"Large Enterprise" means any organization that:
+- Employs 250 or more full-time equivalent (FTE) employees, OR
+- Has annual revenue exceeding €50 million, OR
+- Has a balance sheet total exceeding €43 million
+
+"Commercial Use" includes:
+- Integration into SaaS products or services
+- Use in paid prompt engineering consulting
+- Deployment in enterprise production systems
+- Any use supporting revenue-generating activities
+
+================================================================================
+2. LICENSE GRANT
+================================================================================
+
+Subject to payment of applicable fees and compliance with this Agreement,
+Licensor grants Licensee:
+
+2.1 NON-EXCLUSIVE, NON-TRANSFERABLE license to:
+    a) Use the Licensed Software internally within the organization
+    b) Modify the Licensed Software for internal use
+    c) Integrate into products and services offered to third parties
+    d) Deploy in production enterprise systems
+    e) Use in commercial consulting engagements
+
+2.2 SUBLICENSE RIGHTS (if applicable):
+    [ ] Standard: No sublicense rights
+    [ ] Enterprise Plus: Sublicense to subsidiaries (max 10)
+    [ ] Unlimited: Unlimited sublicense rights
+
+================================================================================
+3. LICENSE FEES
+================================================================================
+
+3.1 PRICING TIERS (Annual Subscription):
+
+    ┌────────────────────────────────────────────────────────────────────┐
+    │ TIER              │ EMPLOYEES    │ REVENUE        │ ANNUAL FEE    │
+    ├────────────────────────────────────────────────────────────────────┤
+    │ Starter           │ 250-500      │ €50M-€100M     │ €5,000        │
+    │ Growth            │ 500-1,000    │ €100M-€250M    │ €10,000       │
+    │ Enterprise        │ 1,000-5,000  │ €250M-€1B      │ €25,000       │
+    │ Enterprise Plus   │ 5,000-10,000 │ €1B-€5B        │ €50,000       │
+    │ Global            │ 10,000+      │ €5B+           │ Custom Quote  │
+    └────────────────────────────────────────────────────────────────────┘
+
+3.2 PERPETUAL LICENSE OPTION:
+    - One-time payment equal to 3x annual fee
+    - Includes first year of support and updates
+    - Annual maintenance: 20% of original license fee
+
+3.3 TRIAL PERIOD:
+    - 90-day evaluation period from first production use
+    - No payment required during trial
+    - Must purchase license before trial expiration
+
+================================================================================
+4. SUPPORT AND MAINTENANCE
+================================================================================
+
+4.1 INCLUDED SERVICES:
+    - Email support (48-hour response time)
+    - Access to updates and new versions
+    - Security patches and bug fixes
+    - Documentation updates
+
+4.2 PREMIUM SUPPORT (Additional Fee):
+    - 24/7 phone support
+    - 4-hour response time for critical issues
+    - Dedicated account manager
+    - Custom training sessions
+    - Architecture review consultations
+
+================================================================================
+5. AUDIT RIGHTS
+================================================================================
+
+5.1 Licensee agrees to maintain accurate records of:
+    - Number of employees (FTE count)
+    - Annual revenue figures
+    - Deployment locations and use cases
+
+5.2 Licensor may request verification documentation:
+    - Employee count certification
+    - Audited financial statements
+    - Corporate structure disclosure
+
+5.3 Failure to provide documentation or misrepresentation
+    constitutes material breach of this Agreement.
+
+================================================================================
+6. WARRANTY DISCLAIMER
+================================================================================
+
+THE LICENSED SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+- WARRANTIES OF MERCHANTABILITY
+- FITNESS FOR A PARTICULAR PURPOSE
+- NON-INFRINGEMENT
+- ACCURACY OF OUTPUTS
+- FREEDOM FROM ERRORS
+
+Licensee acknowledges that AI systems are inherently probabilistic and
+that outputs may contain errors, hallucinations, or inaccuracies.
+
+================================================================================
+7. LIMITATION OF LIABILITY
+================================================================================
+
+7.1 IN NO EVENT SHALL LICENSOR BE LIABLE FOR:
+    - Direct damages exceeding the license fees paid
+    - Indirect, incidental, special, or consequential damages
+    - Loss of profits, data, or business opportunities
+    - Damages arising from AI hallucinations or errors
+
+7.2 Licensee assumes full responsibility for:
+    - Validating all AI outputs before use
+    - Implementing human oversight for critical decisions
+    - Compliance with applicable regulations (GDPR, AI Act, etc.)
+
+================================================================================
+8. TERMINATION
+================================================================================
+
+8.1 This Agreement terminates automatically upon:
+    - Failure to pay license fees when due
+    - Material breach of any term
+    - Misrepresentation of organization size or use
+
+8.2 Upon termination, Licensee must:
+    - Cease all use of Licensed Software
+    - Destroy all copies and derivatives
+    - Certify destruction in writing
+
+================================================================================
+9. GOVERNING LAW
+================================================================================
+
+This Agreement shall be governed by the laws of Spain.
+Any disputes shall be resolved in the courts of Valencia, Spain.
+
+================================================================================
+10. SIGNATURES
+================================================================================
+
+By purchasing or using this Commercial License, Licensee agrees to be
+bound by all terms and conditions set forth in this Agreement.
+
+LICENSOR:                          LICENSEE:
+
+_________________________          _________________________
+Salvador Ferrer Moncho             [Authorized Signatory]
+Date: _______________              Date: _______________
+
+================================================================================
+
+For licensing inquiries, contact:
+Email: licensing@metaforge.ai
+Web: https://metaforge.ai/licensing
+
+Copyright © 2026 Salvador Ferrer Moncho. All Rights Reserved.
+
+================================================================================

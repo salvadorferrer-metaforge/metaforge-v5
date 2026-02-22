@@ -1,0 +1,281 @@
+Manual_Ingenieria_Prompt_v1.0_A5_Bolsillo.pdf-libro_maestro_conocimiento_pedagogico:
+  version: "1.0"
+  fecha_extraccion: "2026-01-20"
+
+  # 1. PERFILES DE APRENDIZAJE
+  perfiles_aprendizaje:
+    - perfil_id: "PER_01"
+      nombre: "Novato Absoluto"
+      caracteristicas:
+        - "Poca o ninguna experiencia con LLMs"
+        - "Acostumbrado a interfaces conversacionales (ChatGPT estilo chat)"
+        - "Se frustra con la rigidez de los formatos estructurados"
+      estrategia_enseñanza:
+        - "Empezar con la filosofía (Manifiesto Cero) para justificar el cambio"
+        - "Usar analogías muy concretas (cocina, construcción)"
+        - "Proporcionar plantillas listas para usar"
+        - "Validar frecuentemente con ejercicios muy guiados"
+      ritmo_recomendado: "Lento (2-3 conceptos por sesión)"
+
+    - perfil_id: "PER_02"
+      nombre: "Profesional Técnico"
+      caracteristicas:
+        - "Experiencia en programación o ingeniería"
+        - "Familiarizado con JSON/YAML/XML"
+        - "Busca eficiencia y resultados prácticos"
+      estrategia_enseñanza:
+        - "Enfocarse en la implementación sobre la teoría"
+        - "Proporcionar casos de estudio reales"
+        - "Desafiar con problemas complejos"
+        - "Minimizar explicaciones redundantes"
+      ritmo_recomendado: "Rápido (puede saltar conceptos básicos)"
+
+  # 2. MAPA CURRICULAR
+  mapa_curricular:
+    - modulo_id: "MOD_01"
+      nombre: "Fundamentos Filosóficos"
+      duracion_estimada: "30 minutos"
+      dificultad: 2
+      objetivo: "Comprender el cambio de paradigma de conversación a compilación"
+      conceptos:
+        - concepto_id: "CON_01_01"
+          nombre: "Manifiesto Cero: Muerte del Prompter"
+          duracion: "10 min"
+          explicacion_principal: |
+            Los LLMs no son interlocutores humanos; son sistemas estocásticos que deben programarse con precisión.
+          explicacion_alternativa_para_perfil: "PER_01"
+            contenido: |
+              Imagina que le pides a un robot chef que te haga una ensalada. Si le dices "córtame unas verduras", hará algo aleatorio. 
+              Si le dices "corta en juliana: zanahoria 5cm x 2mm", hará exactamente lo que necesitas.
+              Los LLMs son como ese robot: necesitan instrucciones exactas, no conversación.
+          error_comun_aprendizaje: "Seguir usando 'por favor' y lenguaje conversacional en prompts"
+          ejercicio_remedial: "Convertir 3 frases conversacionales en instrucciones imperativas"
+          validacion_comprension:
+            pregunta: "¿Por qué es ineficiente tratar a un LLM como un amigo con el que conversas?"
+            respuesta_esperada_minima: "Porque el lenguaje natural es ambiguo y el modelo prioriza satisfacer la conversación sobre la precisión técnica"
+
+        - concepto_id: "CON_01_02"
+          nombre: "Nacimiento del Arquitecto"
+          duracion: "10 min"
+          explicacion_principal: |
+            El usuario debe evolucionar de "quien escribe prompts" a "quien diseña sistemas cognitivos".
+          analogias:
+            - "De cocinero aficionado a chef profesional (de seguir recetas a crear platos)"
+            - "De conductor a ingeniero de automóviles"
+          proyecto_integrador: "Diseñar la identidad de un agente para un dominio familiar"
+
+        - concepto_id: "CON_01_03"
+          nombre: "Lenguaje Natural vs Estructura de Datos"
+          duracion: "10 min"
+          ejercicio_practico: |
+            Dado el siguiente prompt conversacional:
+            "Hola, necesito que actúes como un experto en marketing. Quiero que mires este producto y me digas qué piensas, pero ten en cuenta que el público es joven..."
+            
+            Conviértelo a un formato YAML con:
+            - Rol específico
+            - Tarea concreta
+            - Restricciones claras
+            - Formato de salida
+          solucion_ejercicio: |
+            agente:
+              rol: "Especialista en Marketing para Generación Z"
+              tarea: "Analizar el producto X para audiencia 18-25 años"
+              restricciones:
+                - "Tono: informal pero respetuoso"
+                - "Evitar referencias a cultura anterior a 2010"
+                - "Enfocarse en valores: autenticidad, sostenibilidad, comunidad"
+              formato_salida: "JSON con campos: ventajas, desventajas, sugerencias"
+
+      validacion_modulo:
+        - pregunta: "Enumera 3 diferencias entre un 'prompter' y un 'arquitecto'"
+        - ejercicio: "Convertir un prompt de 100 palabras a un YAML de máximo 10 líneas"
+        - criterio_aprobacion: "El YAML debe contener al menos: rol, tarea, 2 restricciones, formato"
+
+    - modulo_id: "MOD_02"
+      nombre: "Anclas de Conocimiento"
+      duracion_estimada: "45 minutos"
+      dificultad: 5
+      prerrequisitos: ["MOD_01"]
+      objetivo: "Aprender a invocar conocimiento experto mediante términos técnicos específicos"
+      conceptos:
+        - concepto_id: "CON_02_01"
+          nombre: "Tipos de Anclas (Técnica, Cognitiva, Estructural)"
+          duracion: "15 min"
+          explicacion_principal: |
+            Las anclas son términos de alto poder semántico que activan clusters de conocimiento en el modelo.
+          analogias:
+            - "Como decir 'juliana' en una cocina profesional"
+            - "Como decir 'DO-178C' en aeroespacial"
+          ejercicio_practico: |
+            Para cada tipo de ancla, proporciona un ejemplo:
+            1. Técnica: Estándar o protocolo específico
+            2. Cognitiva: Modelo mental o heurística
+            3. Estructural: Marco de trabajo o narrativa
+          solucion_ejercicio:
+            - "Técnica: 'Aplica el estándar OWASP Top 10'"
+            - "Cognitiva: 'Analiza usando el Ciclo OODA'"
+            - "Estructural: 'Desarrolla siguiendo el Monomito de Campbell'"
+
+        - concepto_id: "CON_02_02"
+          nombre: "Densidad Semántica"
+          duracion: "15 min"
+          explicacion_principal: |
+            Un término técnico específico contiene más información útil que párrafos de descripción general.
+          ejemplo_comparativo:
+            - "Vago: 'Sé cuidadoso con la seguridad'"
+            - "Denso: 'Aplica DO-326A para ciberseguridad aérea'"
+          ejercicio_practico: |
+            Convierte estos términos vagos en anclas específicas:
+            1. "Buenas prácticas de programación"
+            2. "Leyes de privacidad"
+            3. "Método científico"
+          solucion_ejercicio:
+            - "PEP-8 para Python, SOLID para diseño"
+            - "GDPR Art.17 (Derecho al Olvido), CCPA para California"
+            - "Método CRISP-DM para ciencia de datos"
+
+        - concepto_id: "CON_02_03"
+          nombre: "Minería de Anclas"
+          duracion: "15 min"
+          explicacion_principal: |
+            Usar al propio LLM para descubrir qué anclas existen en un dominio desconocido.
+          tecnica: |
+            Prompt de investigación: "¿Cuáles son los 3 estándares/frameworks más importantes en [dominio]?"
+          ejercicio_practico: |
+            Investiga anclas para el dominio "gestión de inventarios en hospitales"
+          solucion_ejercicio:
+            - "Método Just-in-Time (JIT)"
+            - "Estándar HL7 para datos médicos"
+            - "Modelo de Análisis ABC"
+
+      validacion_modulo:
+        - pregunta: "¿Por qué 'DO-178C' es más efectivo que 'asegúrate de que el software sea seguro'?"
+        - ejercicio: "Encontrar 5 anclas para el dominio 'derecho laboral'"
+        - criterio_aprobacion: "Al menos 3 anclas deben ser estándares específicos con versión"
+
+  # 3. SECUENCIAS DE ENSEÑANZA OPTIMIZADAS
+  secuencias_ensenanza_optimizadas:
+    - secuencia_id: "SEC_01"
+      nombre: "Ruta Rápida (4 horas)"
+      objetivo: "Crear un agente funcional básico en tiempo mínimo"
+      modulos: ["MOD_01", "MOD_02", "MOD_04", "MOD_07"]
+      proyectos_por_modulo:
+        - modulo: "MOD_01"
+          proyecto: "Diseño de identidad de agente"
+        - modulo: "MOD_02"
+          proyecto: "Diccionario de 5 anclas para un dominio"
+        - modulo: "MOD_04"
+          proyecto: "System prompt en YAML"
+        - modulo: "MOD_07"
+          proyecto: "Agente completo con validación"
+
+    - secuencia_id: "SEC_02"
+      nombre: "Ruta Completa (1 semana)"
+      objetivo: "Dominio completo de la metodología ASI"
+      modulos: ["MOD_01", "MOD_02", "MOD_03", "MOD_04", "MOD_05", "MOD_06", "MOD_07", "MOD_08"]
+      proyecto_final: "Agente especializado con pipeline de doble modelo y protocolos de seguridad"
+
+  # 4. DIAGNÓSTICO DE MALENTENDIDOS
+  diagnostico_malentendidos:
+    - sintoma: "El usuario sigue escribiendo prompts en prosa después de MOD_01"
+      diagnostico: "No ha internalizado el cambio de paradigma"
+      intervencion: 
+        - "Revisar analogía del robot chef"
+        - "Ejercicio adicional: convertir 10 prompts conversacionales a YAML"
+        - "Explicar costo de tokens: mostrar cálculo de ahorro"
+
+    - sintoma: "El usuario usa anclas genéricas (ej: 'leyes europeas') en lugar de específicas"
+      diagnostico: "No comprende la importancia de la densidad semántica"
+      intervencion:
+        - "Mostrar diferencia de output con ancla vaga vs específica"
+        - "Ejercicio: buscar 3 anclas específicas para un dominio dado"
+        - "Explicar concepto de 'Hard Anchor' vs 'Soft Anchor'"
+
+  # 5. HERRAMIENTAS DE EVALUACIÓN
+  herramientas_evaluacion:
+    - herramienta_id: "EVAL_01"
+      nombre: "Test de Comprensión Conceptual"
+      tipo: "Preguntas de opción múltiple"
+      aplicacion: "Al final de cada módulo"
+      ejemplo_preguntas:
+        - pregunta: "¿Cuál es la principal ventaja de usar JSON en lugar de prosa en un system prompt?"
+          opciones:
+            - "A) Se ve más profesional"
+            - "B) Reduce la ambigüedad y mejora la precisión"
+            - "C) Los LLMs prefieren JSON"
+            - "D) Ahorra tokens siempre"
+          respuesta_correcta: "B"
+          explicacion: "La estructura de datos fuerza al modelo a pensar de manera lógica, no lingüística"
+
+    - herramienta_id: "EVAL_02"
+      nombre: "Evaluación Práctica"
+      tipo: "Proyecto aplicado"
+      aplicacion: "Cada 2-3 módulos"
+      rubrica:
+        - criterio: "Uso correcto de anclas técnicas"
+          niveles:
+            - "Excelente: 3+ anclas específicas y actualizadas"
+            - "Aceptable: 1-2 anclas específicas"
+            - "Deficiente: Anclas genéricas o incorrectas"
+        - criterio: "Estructura del system prompt"
+          niveles:
+            - "Excelente: YAML bien formado con todas las secciones requeridas"
+            - "Aceptable: YAML con algunos errores de formato"
+            - "Deficiente: Texto plano o estructura incorrecta"
+
+  # 6. RECURSOS ADICIONALES
+  recursos_adicionales:
+    - recurso_id: "REC_01"
+      nombre: "Diccionario de Anclas por Sector"
+      descripcion: "Lista extensa de términos técnicos para invocar conocimiento experto"
+      formato: "Markdown con búsqueda"
+      uso: "Referencia rápida durante el diseño de agentes"
+
+    - recurso_id: "REC_02"
+      nombre: "Plantillas de System Prompt"
+      descripcion: "Templates YAML/JSON para diferentes tipos de agentes"
+      formatos: ["YAML", "JSON", "XML"]
+      uso: "Punto de partida para nuevos agentes"
+
+  # 7. ADAPTACIÓN A ESTILOS DE APRENDIZAJE
+  adaptacion_estilos_aprendizaje:
+    - estilo: "Visual"
+      adaptaciones:
+        - "Proporcionar diagramas de arquitectura en texto (ASCII/unicode)"
+        - "Usar colores en respuestas (si el soporte lo permite)"
+        - "Mostrar antes/después con formatos contrastados"
+
+    - estilo: "Kinestésico/Práctico"
+      adaptaciones:
+        - "Más ejercicios, menos teoría"
+        - "Proyectos reales desde el principio"
+        - "Corrección inmediata de errores"
+
+    - estilo: "Teórico/Reflexivo"
+      adaptaciones:
+        - "Profundizar en fundamentos filosóficos"
+        - "Discutir implicaciones éticas y sociales"
+        - "Comparar con otras metodologías"
+
+  # 8. SISTEMA DE RECOMENDACIONES
+  sistema_recomendacion:
+    - perfil: "PER_01 (Novato)"
+      recomendaciones:
+        - "Comenzar con SEC_01 (Ruta Rápida)"
+        - "Usar plantillas proporcionadas sin modificar al principio"
+        - "Validar cada paso con el tutor antes de avanzar"
+        - "Enfocarse en un dominio muy familiar"
+
+    - perfil: "PER_02 (Profesional Técnico)"
+      recomendaciones:
+        - "Saltar MOD_01 si ya comprende la filosofía"
+        - "Enfocarse en MOD_02 (Anclas) y MOD_05 (Doble Modelo)"
+        - "Probar con dominios complejos desde el inicio"
+        - "Experimentar con protocolos avanzados (Zero-Trust)"
+
+  # 9. NOTAS DE IMPLEMENTACIÓN
+  notas_implementacion:
+    - "Este YAML debe permitir a un sistema tutorial (como Guía v3) adaptar su enseñanza al perfil del usuario"
+    - "Los diagnósticos deben activarse automáticamente cuando se detecten patrones de error"
+    - "Las secuencias deben ser ajustables en tiempo real según el progreso del usuario"
+    - "Los recursos deben estar disponibles mediante comandos rápidos durante el aprendizaje"
