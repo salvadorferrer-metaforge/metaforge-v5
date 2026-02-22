@@ -172,12 +172,6 @@ Según la definición de PYME de la Unión Europea:
 - **Disponible en:** Amazon KDP (Kindle y Tapa Blanda)
 - **QR al repositorio:** [Ver código QR](#)
 
-### 🌐 Enlaces Útiles
-- 🌐 Web oficial: https://metaforge.ai
-- 📧 Soporte: support@metaforge.ai
-- 📧 Licencias comerciales: licensing@metaforge.ai
-- 💬 Comunidad: [Discord](https://discord.gg/metaforge)
-- 🐦 Twitter: [@MetaForgeAI](https://twitter.com/MetaForgeAI)
 
 ---
 
