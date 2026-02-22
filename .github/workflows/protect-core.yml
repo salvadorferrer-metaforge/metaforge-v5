@@ -1,0 +1,14 @@
+name: Core Assets Integrity Check
+on:
+  pull_request:
+    paths:
+      - 'core/**'
+
+jobs:
+  security-alert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Alert on Core Modification
+        run: |
+          echo "⚠️ ALERTA: Se ha detectado un intento de modificación en la carpeta CORE."
+          echo "Esta carpeta contiene los activos deterministas de la arquitectura ASI."
