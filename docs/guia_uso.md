@@ -5,7 +5,14 @@
 ---
 
 ## 📖 Índice
+## ⚡ Protocolo de Arranque (Quick Start)
 
+Para inicializar el kernel de **META FORGE v5** con la fidelidad mostrada en los logs de la sesión `META_SESSION_20260130_07347_AF42`, ejecute esta secuencia:
+
+1. **Carga del Kernel:** Pegue el contenido de `core/SYSTEM_PROMPT_CORE_v5_CORREGIDO-v1.md`.
+2. **Inyección de Primitivas:** Proporcione el archivo `core/cognitive_primitives_atlas.json`.
+3. **Comando de Ignición:** > "Arquitecto, inicialice modo COMPILACIÓN INDUSTRIAL. Verifique integridad de Primitivas y establezca el AirGap operativo."
+---
 1. [Conceptos Fundamentales](#conceptos-fundamentales)
 2. [Preparación](#preparación)
 3. [Pipeline de Construcción](#pipeline-de-construcción)
