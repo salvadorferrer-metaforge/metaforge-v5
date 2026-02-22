@@ -7,6 +7,7 @@ This Commercial License Agreement ("Agreement") is entered into between:
 
 LICENSOR: Salvador Ferrer Moncho
           Author and Copyright Holder of META FORGE v5
+          Contact: metaforge.licensing@gmail.com
           
 LICENSEE: [Company Name]
           [Company Registration Number]
@@ -25,156 +26,81 @@ License Term: [Annual / Perpetual]
 - Cognitive Primitives Atlas (54 cognitive primitives)
 - Master Knowledge Books (Pedagogical and Technical)
 - Link Operator (Navigator)
-- All associated tools, templates, and examples
+- All associated technical documentation and architectures.
 
 "Large Enterprise" means any organization that:
 - Employs 250 or more full-time equivalent (FTE) employees, OR
-- Has annual revenue exceeding €50 million, OR
-- Has a balance sheet total exceeding €43 million
-
-"Commercial Use" includes:
-- Integration into SaaS products or services
-- Use in paid prompt engineering consulting
-- Deployment in enterprise production systems
-- Any use supporting revenue-generating activities
+- Has annual revenue exceeding €50 million.
 
 ================================================================================
-2. LICENSE GRANT
+2. LICENSE GRANT (WHAT YOU CAN DO)
 ================================================================================
 
-Subject to payment of applicable fees and compliance with this Agreement,
-Licensor grants Licensee:
-
-2.1 NON-EXCLUSIVE, NON-TRANSFERABLE license to:
-    a) Use the Licensed Software internally within the organization
-    b) Modify the Licensed Software for internal use
-    c) Integrate into products and services offered to third parties
-    d) Deploy in production enterprise systems
-    e) Use in commercial consulting engagements
-
-2.2 SUBLICENSE RIGHTS (if applicable):
-    [ ] Standard: No sublicense rights
-    [ ] Enterprise Plus: Sublicense to subsidiaries (max 10)
-    [ ] Unlimited: Unlimited sublicense rights
+2.1 Subject to payment, Licensor grants a NON-EXCLUSIVE license to:
+    a) Use the Licensed Software for internal enterprise operations.
+    b) Integrate the architectures into products offered to third parties.
+    c) Deploy in production systems under strict human supervision.
 
 ================================================================================
 3. LICENSE FEES
 ================================================================================
 
-3.1 PRICING TIERS (Annual Subscription):
-
-    ┌────────────────────────────────────────────────────────────────────┐
-    │ TIER              │ EMPLOYEES    │ REVENUE        │ ANNUAL FEE    │
-    ├────────────────────────────────────────────────────────────────────┤
-    │ Starter           │ 250-500      │ €50M-€100M     │ €5,000        │
-    │ Growth            │ 500-1,000    │ €100M-€250M    │ €10,000       │
-    │ Enterprise        │ 1,000-5,000  │ €250M-€1B      │ €25,000       │
-    │ Enterprise Plus   │ 5,000-10,000 │ €1B-€5B        │ €50,000       │
-    │ Global            │ 10,000+      │ €5B+           │ Custom Quote  │
-    └────────────────────────────────────────────────────────────────────┘
-
-3.2 PERPETUAL LICENSE OPTION:
-    - One-time payment equal to 3x annual fee
-    - Includes first year of support and updates
-    - Annual maintenance: 20% of original license fee
-
-3.3 TRIAL PERIOD:
-    - 90-day evaluation period from first production use
-    - No payment required during trial
-    - Must purchase license before trial expiration
+3.1 FEES: Based on the current pricing tier at the time of purchase.
+3.2 PAYMENT: All fees are non-refundable once the Licensed Software is delivered.
+3.3 NO TRIAL: Access to the core architecture constitutes full use.
 
 ================================================================================
-4. SUPPORT AND MAINTENANCE
+4. NO SUPPORT AND NO MAINTENANCE (CRITICAL)
 ================================================================================
 
-4.1 INCLUDED SERVICES:
-    - Email support (48-hour response time)
-    - Access to updates and new versions
-    - Security patches and bug fixes
-    - Documentation updates
-
-4.2 PREMIUM SUPPORT (Additional Fee):
-    - 24/7 phone support
-    - 4-hour response time for critical issues
-    - Dedicated account manager
-    - Custom training sessions
-    - Architecture review consultations
-
-================================================================================
-5. AUDIT RIGHTS
-================================================================================
-
-5.1 Licensee agrees to maintain accurate records of:
-    - Number of employees (FTE count)
-    - Annual revenue figures
-    - Deployment locations and use cases
-
-5.2 Licensor may request verification documentation:
-    - Employee count certification
-    - Audited financial statements
-    - Corporate structure disclosure
-
-5.3 Failure to provide documentation or misrepresentation
-    constitutes material breach of this Agreement.
+4.1 "AS-IS" DELIVERY: The Licensed Software is delivered as a static set of 
+    architectures and prompts. 
+4.2 NO TECHNICAL SUPPORT: This license DOES NOT include:
+    - Technical support, bug fixing, or troubleshooting.
+    - Integration or implementation consulting.
+    - Training for employees or customized versions.
+4.3 NO GUARANTEED UPDATES: The Licensor is not obligated to provide updates 
+    for future versions of Large Language Models (LLMs) or changes in AI 
+    provider APIs (OpenAI, Google, Anthropic, etc.).
+4.4 INDEPENDENT CONSULTING: Any request for support or customization must be 
+    negotiated as a separate Professional Services Agreement.
 
 ================================================================================
-6. WARRANTY DISCLAIMER
+5. WARRANTY AND LIABILITY DISCLAIMER
 ================================================================================
 
-THE LICENSED SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND,
-EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
-
-- WARRANTIES OF MERCHANTABILITY
-- FITNESS FOR A PARTICULAR PURPOSE
-- NON-INFRINGEMENT
-- ACCURACY OF OUTPUTS
-- FREEDOM FROM ERRORS
-
-Licensee acknowledges that AI systems are inherently probabilistic and
-that outputs may contain errors, hallucinations, or inaccuracies.
+5.1 NO WARRANTY: Licensor provides NO WARRANTY that the software will meet 
+    Licensee's requirements or that its operation will be error-free.
+5.2 PROBABILISTIC NATURE: Licensee acknowledges that the outputs of AI 
+    architectures are probabilistic. Licensor is NOT responsible for:
+    - "Hallucinations" or factual errors.
+    - Biased or inappropriate content generated by the underlying LLM.
+    - Security vulnerabilities arising from the use of the prompts.
+5.3 LIMITATION OF LIABILITY: In no event shall Licensor's liability exceed 
+    the total amount of license fees paid by Licensee.
 
 ================================================================================
-7. LIMITATION OF LIABILITY
+6. RESPONSIBILITY OF LICENSEE
 ================================================================================
 
-7.1 IN NO EVENT SHALL LICENSOR BE LIABLE FOR:
-    - Direct damages exceeding the license fees paid
-    - Indirect, incidental, special, or consequential damages
-    - Loss of profits, data, or business opportunities
-    - Damages arising from AI hallucinations or errors
-
-7.2 Licensee assumes full responsibility for:
-    - Validating all AI outputs before use
-    - Implementing human oversight for critical decisions
-    - Compliance with applicable regulations (GDPR, AI Act, etc.)
+6.1 HUMAN-IN-THE-LOOP: Licensee MUST implement a mandatory human review 
+    process for all outputs generated using META FORGE v5.
+6.2 COMPLIANCE: Licensee is responsible for compliance with the EU AI Act, 
+    GDPR, and any other applicable regulations.
 
 ================================================================================
-8. TERMINATION
+7. TERMINATION, LAW AND JURISDICTION
 ================================================================================
 
-8.1 This Agreement terminates automatically upon:
-    - Failure to pay license fees when due
-    - Material breach of any term
-    - Misrepresentation of organization size or use
-
-8.2 Upon termination, Licensee must:
-    - Cease all use of Licensed Software
-    - Destroy all copies and derivatives
-    - Certify destruction in writing
+7.1 This Agreement terminates if Licensee violates any intellectual property 
+    clause or fails to pay.
+7.2 GOVERNING LAW: This Agreement is governed by the laws of SPAIN.
+7.3 JURISDICTION: Any disputes shall be resolved exclusively in the courts 
+    of Denia/Alicante, Spain.
 
 ================================================================================
-9. GOVERNING LAW
+8. SIGNATURES
 ================================================================================
-
-This Agreement shall be governed by the laws of Spain.
-Any disputes shall be resolved in the courts of Valencia, Spain.
-
-================================================================================
-10. SIGNATURES
-================================================================================
-
-By purchasing or using this Commercial License, Licensee agrees to be
-bound by all terms and conditions set forth in this Agreement.
 
 LICENSOR:                          LICENSEE:
 
@@ -183,11 +109,5 @@ Salvador Ferrer Moncho             [Authorized Signatory]
 Date: _______________              Date: _______________
 
 ================================================================================
-
-For licensing inquiries, contact:
-Email: metaforge.licensing@gmail.com
-
-
 Copyright © 2026 Salvador Ferrer Moncho. All Rights Reserved.
-
 ================================================================================
