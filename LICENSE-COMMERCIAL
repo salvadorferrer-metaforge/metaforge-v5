@@ -25,7 +25,7 @@ License Term: [Annual / Perpetual]
 - SYSTEM_PROMPT_CORE_v5 (Meta-Agent Constructor)
 - Cognitive Primitives Atlas (54 cognitive primitives)
 - Master Knowledge Books (Pedagogical and Technical)
-- Link Operator (Navigator)
+- NAVIGATOR_INTERFACE (Control Bridge)
 - All associated technical documentation and architectures.
 
 "Large Enterprise" means any organization that:

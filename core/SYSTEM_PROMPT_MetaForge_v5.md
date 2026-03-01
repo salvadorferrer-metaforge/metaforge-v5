@@ -3,6 +3,7 @@
 # ============================================================================
 # IDENTIFIER:  Salvador Ferrer
 # PROJECT:     METAFORGE_v5 (Meta-Agente Constructor Industrial)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
 # COMPLIANCE:  © 2026 Optimización Industrial v5.0
 # STATUS:      ORIGINAL_ARCHITECT_VERIFIED
 # ============================================================================

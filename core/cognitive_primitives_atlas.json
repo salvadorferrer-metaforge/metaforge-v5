@@ -1,4 +1,11 @@
 {
+  "asset_metadata": {
+    "project": "METAFORGE_v5",
+    "book_reference": "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN",
+    "author": "Salvador Ferrer",
+    "version": "2.0.1",
+    "integrity_check": "CRC_OK"
+  },
   "cognitive_primitives_atlas": {
     "scan_metadata": {
       "scan_depth": "Complete 3D space mapping (X: Activation Type, Y: Abstraction Level, Z: Cross-Model Consistency)",

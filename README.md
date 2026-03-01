@@ -1,7 +1,8 @@
-# META FORGE v5 🏗️
-
+# METAFORGE v5 🏗️
 > **"La estructura vence a la estocástica. La precisión vence a la ambigüedad."**
 
+[![Libro](https://img.shields.io/badge/Libro-CÓMO_CONSTRUIR_AGENTES_DE_IA_QUE_NO_ALUCINAN-blueviolet.svg)](#)
+[![Version](https://img.shields.io/badge/Version-5.0.0--industrial-green.svg)](CHANGELOG.md)
 [![License: Dual](https://img.shields.io/badge/License-Dual%20Personal%2FCommercial-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-5.0.0--industrial-green.svg)](CHANGELOG.md)
 [![ASI](https://img.shields.io/badge/Paradigma-ASI%20(Artificial%20Specific%20Intelligence)-orange.svg)](docs/que-es-asi.md)
@@ -12,14 +13,17 @@
 
 **META FORGE v5** es un **Meta-Agente Constructor Industrial** diseñado para crear **Sistemas de Sabiduría Artificial Específica (ASI)** — agentes deterministas, precisos y predictibles para entornos empresariales críticos.
 
-Este repositorio contiene todos los activos técnicos del libro **"Manual de Ingeniería de Prompt"** de Salvador Ferrer Moncho:
+Este repositorio es el entorno de ejecución oficial y el Atlas de Activos del libro: 
+**"CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN - Manual de producción para ingenieros"** por Salvador Ferrer Moncho.
 
-| Componente | Descripción |
-|------------|-------------|
-| `SYSTEM_PROMPT_CORE_v5` | Meta-agente constructor con pipeline de 5 fases |
-| `cognitive_primitives_atlas.json` | Catálogo de 54 primitivas cognitivas validadas |
-| `libro_maestro_conocimiento_*.yml` | Bases de conocimiento pedagógico y técnico |
-| `Operador_de_Enlace.md` | Navigator para interacción humano-META FORGE |
+### 🧩 Componentes del Core
+
+| Activo | Función | Ruta |
+| :--- | :--- | :--- |
+| **Kernel v5** | System Prompt del Meta-Agente Constructor Industrial. | `core/SYSTEM_PROMPT_MetaForge_v5.md` |
+| **Navigator** | Interfaz de control y guía de procedimiento (Bridge). | `core/NAVIGATOR_INTERFACE.md` |
+| **Primitives** | Catálogo de 54 primitivas cognitivas validadas. | `core/cognitive_primitives_atlas.json` |
+| **Knowledge Anchors** | Libros Maestros (Técnico y Pedagógico) para inyección de contexto. | `core/libro_maestro_conocimiento_*.yml` |
 
 ---
 
@@ -42,23 +46,36 @@ cd metaforge-v5
 ls -la *.yml *.json *.md
 ```
 
-### Primer Uso
 
-1. **Cargar los 3 archivos base** en la ventana de contexto de tu LLM:
-   - `libro_maestro_conocimiento_pedagogico.yml`
-   - `libro_maestro_conocimiento_tecnico.yml`
-   - `cognitive_primitives_atlas.json`
+### 🚀 Protocolo de Operación (Flujo de Trabajo Industrial)
 
-2. **Inicializar META FORGE** con el bloque de inicio:
-   ```yaml
-   INICIALIZAR_METAFORGE_v5
-   [MODE]: OPERATOR_DRIVEN
-   [PROFILE]: PER_02_EXPERTO
-   ```
+Para garantizar un **Determinismo del 99.9%**, no intente gestionar el proceso manualmente. Siga estrictamente esta secuencia de inicialización:
 
-3. **Seguir el pipeline** de 5 fases guiado por el sistema.
+1. **Carga del Kernel:** Copie el contenido de `core/SYSTEM_PROMPT_MetaForge_v5.md` y péguelo en el **System Prompt** de su LLM (Recomendado: GLM-5, KIMI, Claude 3.5 Sonnet o GPT-4o).
+2. **Activación del Navigator:** Abra una **segunda ventana de chat** con el mismo modelo y pegue el contenido de `core/NAVIGATOR_INTERFACE.md`.
+3. **Ejecución Guiada:** A partir de este momento, **interactúe exclusivamente con el Navigator**. Él le indicará paso a paso:
+* Cuándo enviar el comando de inicialización al Kernel.
+* Qué archivos específicos de la carpeta `core/` debe adjuntar en cada fase.
+* Cómo validar los outputs mediante la traza de pensamiento (`<thought_trace>`).
+
+
+
+> **REGLA DE ORO:** El Navigator es su torre de control; el Kernel es el motor. No alimente el motor sin las instrucciones de la torre.
 
 ---
+
+### 📁 Mapa de Activos del Core
+
+| Activo | Función |
+| --- | --- |
+| `core/SYSTEM_PROMPT_MetaForge_v5.md` | **Kernel:** El motor de compilación de agentes. |
+| `core/NAVIGATOR_INTERFACE.md` | **Navigator:** Su interfaz de guía y control de flujo. |
+| `core/cognitive_primitives_atlas.json` | **Biblioteca:** Primitivas para el razonamiento del agente. |
+| `core/libro_maestro_*.yml` | **Anclas:** Conocimiento técnico y pedagógico verificado. |
+
+---
+
+
 
 ## 📁 Estructura del Repositorio
 
@@ -79,7 +96,7 @@ metaforge-v5/
 │   └── libro_maestro_conocimiento_tecnico.yml
 │
 ├── 🔧 tools/                     # Herramientas auxiliares
-│   ├── Operador_de_Enlace.md     # Navigator humano-máquina
+│   ├── NAVIGATOR_INTERFACE.md    # Navigator humano-máquina
 │   └── runtime_auditor.md        # Auditor de capacidades
 │
 ├── 📚 docs/                      # Documentación
@@ -167,7 +184,7 @@ Según la definición de PYME de la Unión Europea:
 ## 🔗 Recursos Adicionales
 
 ### 📖 Documentación del Libro
-- **Título:** Manual de Ingeniería de Prompt
+- **Título:** CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN - Manual de producción para ingenieros
 - **Autor:** Salvador Ferrer Moncho
 - **Disponible en:** Amazon KDP (Kindle y Tapa Blanda)
 - **QR al repositorio:** [Ver código QR](#)
@@ -243,12 +260,12 @@ Consulta [LICENSE](LICENSE) para el texto completo de exención de responsabilid
 ## 📜 Cita Este Proyecto
 
 ```bibtex
-@book{ferrer2026manual,
-  title={Manual de Ingeniería de Prompt: De la Conversación a la Compilación},
+@book{ferrer2026alucinaciones,
+  title={CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN: Manual de producción para ingenieros},
   author={Ferrer Moncho, Salvador},
   year={2026},
-  publisher={Amazon KDP},
-  url={https://github.com/salvadorferrer/metaforge-v5}
+  publisher={Publicación Independiente / Amazon KDP},
+  url={https://github.com/[TU_USUARIO]/metaforge-v5}
 }
 ```
 

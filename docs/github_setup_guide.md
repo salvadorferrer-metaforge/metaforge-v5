@@ -1,4 +1,13 @@
-# Guía de Configuración de GitHub para META FORGE v5
+# ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Community Tools Registry)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# STATUS:      COMMUNITY_GATEWAY_ACTIVE
+# ============================================================================
+
+# Guía de Configuración de GitHub para METAFORGE v5
 
 > Configuración recomendada para proteger los activos del proyecto.
 
@@ -29,15 +38,14 @@
 
 ```
 metaforge-v5/
-├── .github/
-│   ├── workflows/          # GitHub Actions
-│   ├── ISSUE_TEMPLATE/     # Plantillas de issues
-│   └── PULL_REQUEST_TEMPLATE.md
-├── community/              # Contribuciones (escribible)
-├── core/                   # Activos principales (solo lectura)
-├── docs/                   # Documentación
-├── scripts/                # Utilidades
-└── [archivos raíz]
+├── community/              # Contribuciones de agentes y herramientas
+├── core/                   # Kernel, Navigator y Anclas (Solo Lectura)
+├── docs/                   # Guías, manuales y activos visuales
+├── libro/                  # Referencias al manuscrito original
+├── scripts/                # Validadores de licencia y sincronización
+├── CHANGELOG.md            # Historial de versiones
+├── LICENSE                 # Licencia Dual (Personal/Comercial)
+└── README.md               # Puerta de enlace al sistema
 ```
 
 ### 3. Archivos Iniciales Requeridos
@@ -252,7 +260,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
-            ¡Gracias por tu contribución a META FORGE v5! 🎉
+            ¡Gracias por tu contribución a METAFORGE v5! 🎉
             
             Un mantenedor revisará tu PR en los próximos 7 días.
             
@@ -366,7 +374,7 @@ Ejemplo: 5.0.0
 2. **Crear release en GitHub:**
    - Ir a Releases > Draft new release
    - Seleccionar tag
-   - Título: "META FORGE v5.0.0 - Industrial"
+   - Título: "METAFORGE v5.0.0 - Industrial"
    - Descripción: Copiar desde CHANGELOG.md
 
 3. **Assets:**

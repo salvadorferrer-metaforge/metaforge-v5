@@ -1,5 +1,8 @@
-# Changelog de META FORGE v5
+```markdown
+Changelog - METAFORGE v5
+Proyecto: CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN
 
+Todos los cambios notables en este activo técnico se documentan aquí bajo estándares de Keep a Changelog.
 Todos los cambios notables en este proyecto se documentarán en este archivo.
 
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/),
@@ -11,7 +14,7 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ### 🎉 Lanzamiento Inicial (Industrial)
 
-Primera versión estable del sistema META FORGE v5 para construcción industrial de agentes ASI.
+Primera versión estable del sistema METAFORGE v5 para construcción industrial de agentes ASI.
 
 ### ✨ Añadido
 
@@ -46,7 +49,7 @@ Primera versión estable del sistema META FORGE v5 para construcción industrial
   - Catálogo de anclas por sector (Ciberseguridad, Aeroespacial, Legal, etc.)
 
 #### Tools
-- **Operador_de_Enlace.md** - Navigator para interacción humano-META FORGE
+- **Operador_de_Enlace.md** - Navigator para interacción humano-METAFORGE
   - Máquina de estados de 8 estados
   - Protocolos de coordinación
   - Modo operador para usuarios expertos

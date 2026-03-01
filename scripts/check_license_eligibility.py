@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
+# ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Community Tools Registry)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# STATUS:      COMMUNITY_GATEWAY_ACTIVE
+# ============================================================================
 """
-META FORGE v5 - License Eligibility Checker
-============================================
-
+METAFORGE v5 - License Eligibility Checker
 Script para verificar la elegibilidad de una organización según
-los términos de la licencia dual de META FORGE v5.
+los términos de la licencia dual de METAFORGE v5.
+"""
 
 Uso:
     python check_license_eligibility.py
@@ -158,7 +165,7 @@ class LicenseChecker:
         details = self.get_license_details()
         
         print("=" * 70)
-        print("META FORGE v5 - REPORTE DE ELEGIBILIDAD DE LICENCIA")
+        print("METAFORGE v5 - REPORTE DE ELEGIBILIDAD DE LICENCIA")
         print("=" * 70)
         print()
         
@@ -218,7 +225,7 @@ class LicenseChecker:
 def interactive_mode():
     """Modo interactivo para ingresar datos."""
     print("=" * 70)
-    print("META FORGE v5 - VERIFICADOR DE ELEGIBILIDAD DE LICENCIA")
+    print("METAFORGE v5 - VERIFICADOR DE ELEGIBILIDAD DE LICENCIA")
     print("=" * 70)
     print()
     print("Ingrese los datos de su organización:")
@@ -256,7 +263,7 @@ def interactive_mode():
 def main():
     """Función principal."""
     parser = argparse.ArgumentParser(
-        description="Verificador de elegibilidad de licencia META FORGE v5",
+        description="Verificador de elegibilidad de licencia METAFORGE v5",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Ejemplos:

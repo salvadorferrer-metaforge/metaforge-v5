@@ -1,16 +1,25 @@
-# Guía de Uso de META FORGE v5
+# ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Community Tools Registry)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# STATUS:      COMMUNITY_GATEWAY_ACTIVE
+# ============================================================================
 
-> Manual completo para construir agentes ASI con META FORGE v5.
+# Guía de Uso de SYSTEM_PROMPT_MetaForge_v5.md
+
+> Manual completo para construir agentes ASI con SYSTEM_PROMPT_MetaForge_v5.md.
 
 ---
 
 ## 📖 Índice
 ## ⚡ Protocolo de Arranque (Quick Start)
 
-Para inicializar el kernel de **META FORGE v5** con la fidelidad mostrada en los logs de la sesión `META_SESSION_20260130_07347_AF42`, ejecute esta secuencia:
+Para inicializar el kernel de **SYSTEM_PROMPT_MetaForge_v5.md** con la fidelidad mostrada en los logs de la sesión `META_SESSION_20260130_07347_AF42`, ejecute esta secuencia:
 
-1. **Carga del Kernel:** Pegue el contenido de `core/SYSTEM_PROMPT_CORE_v5_CORREGIDO-v1.md`.
-2. **Inyección de Primitivas:** Proporcione el archivo `core/cognitive_primitives_atlas.json`.
+1. **Carga del Kernel:** Pegue el contenido de `core/SYSTEM_PROMPT_MetaForge_v5.md` en el System Prompt.
+2. **Inyección de Primitivas:** Proporcione el archivo `core/cognitive_primitives_atlas.json` y los Libros Maestros (`libro_maestro_*.yml`) cuando el Navigator lo solicite.
 3. **Comando de Ignición:** > "Arquitecto, inicialice modo COMPILACIÓN INDUSTRIAL. Verifique integridad de Primitivas y establezca el AirGap operativo."
 ---
 1. [Conceptos Fundamentales](#conceptos-fundamentales)
@@ -66,6 +75,8 @@ Iterativo               →       One-shot preciso
 ### Requisitos
 
 1. **LLM Compatible**
+   - GLM-5
+   - KIMI
    - GPT-4o (OpenAI)
    - Claude 3.5 Sonnet (Anthropic)
    - Gemini 1.5 Pro (Google)
@@ -383,7 +394,7 @@ GUARDRAILS:
 
 ## 📚 Recursos Adicionales
 
-- [Manual de Ingeniería de Prompt](https://amazon.com/...)
+- [CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN](https://github.com/salvadorferrer/metaforge-v5)
 - [Cognitive Primitives Atlas](../cognitive_primitives_atlas.json)
 - [Libro Maestro Técnico](../libro_maestro_conocimiento_tecnico.yml)
 

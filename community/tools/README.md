@@ -1,6 +1,14 @@
+# ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Community Tools Registry)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# STATUS:      COMMUNITY_GATEWAY_ACTIVE
+# ============================================================================
 # Herramientas de la Comunidad
 
-> Utilidades, scripts y herramientas auxiliares para META FORGE v5.
+> Utilidades, scripts y herramientas auxiliares para METAFORGE v5.
 
 ---
 
@@ -42,12 +50,11 @@ community/tools/
     └── LICENSE                # Licencia
 ```
 
-### Requisitos
-
-- Código documentado
-- Tests incluidos
-- README claro con instrucciones
-- Licencia compatible
+### ✅ Requisitos de Calidad Industrial
+- **Definición Estricta:** Las herramientas deben incluir esquemas JSON/YAML para sus parámetros (Function Calling).
+- **Control de Errores:** Deben manejar excepciones de forma que el LLM reciba un error técnico claro, no una respuesta ambigua.
+- **Documentación Técnica:** El README de la herramienta debe especificar cómo interactúa con el `NAVIGATOR_INTERFACE.md`.
+- **Licencia:** Debe ser compatible con la Licencia Dual de METAFORGE v5.
 
 ---
 

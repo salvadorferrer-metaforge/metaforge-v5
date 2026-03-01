@@ -1,3 +1,11 @@
+# ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Community Tools Registry)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# STATUS:      COMMUNITY_GATEWAY_ACTIVE
+# ============================================================================
 # Agentes de la Comunidad META FORGE v5
 
 > Colección de agentes ASI creados por la comunidad.
@@ -11,7 +19,7 @@
 | Agente | Autor | Descripción | Estado |
 |--------|-------|-------------|--------|
 | [THEMIS](./themis/) | @salvadorferrer | Defensa legal asimétrica | ✅ Oficial |
-| [ARVA](./arva/) | @salvadorferrer | Razonamiento verificable | ✅ Oficial |
+| [ARVA](./arva/) | @salvadorferrer | Razonamiento Determinista | ✅ Oficial |
 
 ### 💼 Recursos Humanos
 
@@ -62,13 +70,13 @@
 ```
 community/agents/
 └── tu-agente/
-    ├── README.md              # Documentación (obligatorio)
-    ├── system_prompt.xml      # Prompt del sistema (obligatorio)
-    ├── ejemplos/              # Casos de uso (recomendado)
+    ├── README.md                # Documentación (obligatorio)
+    ├── system_prompt.yaml/xml   # Prompt del sistema (obligatorio)
+    ├── ejemplos/                # Casos de uso (recomendado)
     │   ├── ejemplo_1.md
     │   └── ejemplo_2.md
-    ├── tests/                 # Tests (opcional)
-    └── LICENSE                # Licencia (obligatorio)
+    ├── tests/                   # Tests (opcional)
+    └── LICENSE                  # Licencia (obligatorio)
 ```
 
 ### Criterios de Aceptación
@@ -96,11 +104,10 @@ community/agents/
 ## 📊 Estadísticas
 
 | Métrica | Valor |
-|---------|-------|
-| Agentes Oficiales | 2 |
-| Agentes de Comunidad | 0 |
-| Total | 2 |
-| Sectores Cubiertos | 1 |
+| :--- | :--- |
+| Agentes Oficiales | 2 (THEMIS, ARVA) |
+| Primitivas Compatibles | 54 |
+| Estado del Kernel | v5.0.0-industrial |
 
 ---
 

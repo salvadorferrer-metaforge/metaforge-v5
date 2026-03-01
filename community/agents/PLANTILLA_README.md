@@ -1,3 +1,12 @@
+# ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Community Tools Registry)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# STATUS:      COMMUNITY_GATEWAY_ACTIVE
+# ============================================================================
+
 # Plantilla README para Agentes de Comunidad
 
 > Copia este archivo como `README.md` en la carpeta de tu agente y completa la información.
@@ -37,11 +46,11 @@ Breve descripción de qué hace el agente y su propósito principal.
 - [ ] Vision capabilities
 - [ ] Otras: [Especificar]
 
-### Archivos de Contexto Requeridos
-- [ ] `libro_maestro_conocimiento_pedagogico.yml`
-- [ ] `libro_maestro_conocimiento_tecnico.yml`
-- [ ] `cognitive_primitives_atlas.json`
-- [ ] Archivos adicionales: [Listar si aplica]
+### 🧠 Activos de METAFORGE v5 Requeridos
+- [ ] `core/SYSTEM_PROMPT_MetaForge_v5.md` (Como base de razonamiento)
+- [ ] `core/libro_maestro_conocimiento_tecnico.yml`
+- [ ] `core/libro_maestro_conocimiento_pedagogico.yml`
+- [ ] `core/cognitive_primitives_atlas.json`
 
 ---
 
@@ -52,8 +61,9 @@ Breve descripción de qué hace el agente y su propósito principal.
 ```yaml
 # Bloque de inicialización para el agente
 INICIALIZAR_AGENTE_[NOMBRE]
-[MODE]: [OPERATOR_DRIVEN / INTERACTIVE]
-[PROFILE]: [PER_01_NOVATO / PER_02_EXPERTO]
+[PARENT_KERNEL]: METAFORGE_v5_INDUSTRIAL
+[MODE]: OPERATOR_DRIVEN
+[PROFILE]: PER_02_EXPERTO
 ```
 
 ### Input Esperado

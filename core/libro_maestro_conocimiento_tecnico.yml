@@ -1,6 +1,12 @@
+# ============================================================================
+# METAFORGE_ASSET: KNOWLEDGE_ANCHOR_TECHNICAL
+# PROJECT: METAFORGE_v5
+# BOOK_REF: "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# ============================================================================
 libro_maestro_conocimiento_tecnico:
-  version: "1.0"
-  fecha_extraccion: "2026-01-26"
+  version: "1.0.1"
+  status: "VERIFIED_CONTENT"
+  fecha_actualizacion: "2026-03-01"
   
   conceptos_fundamentales:
     - concepto_id: "MF_01"

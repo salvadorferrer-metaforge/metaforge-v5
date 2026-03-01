@@ -1,4 +1,11 @@
 # ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Navigator Interface)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# COMPLIANCE:  © 2026 Optimización Industrial v5.0
+# ============================================================================
 # IDENTITY: NAVIGATOR_v5 (Operador de Enlace para METAFORGE)
 # ============================================================================
 # ROL: Interfaz de Control y Guía de Procedimiento.

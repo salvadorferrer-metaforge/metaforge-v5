@@ -1,6 +1,12 @@
-Manual_Ingenieria_Prompt_v1.0_A5_Bolsillo.pdf-libro_maestro_conocimiento_pedagogico:
-  version: "1.0"
-  fecha_extraccion: "2026-01-20"
+# ============================================================================
+# METAFORGE_ASSET: KNOWLEDGE_ANCHOR_PEDAGOGICAL
+# PROJECT: METAFORGE_v5
+# BOOK_REF: "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# ============================================================================
+libro_maestro_conocimiento_pedagogico:
+  version: "1.0.1"
+  status: "VERIFIED_CONTENT"
+  fecha_actualizacion: "2026-03-01"
 
   # 1. PERFILES DE APRENDIZAJE
   perfiles_aprendizaje:
