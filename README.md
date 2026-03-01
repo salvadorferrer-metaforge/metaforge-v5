@@ -87,43 +87,33 @@ Para garantizar un **Determinismo del 99.9%**, no intente gestionar el proceso m
 
 ## 📁 Estructura del Repositorio
 
-```
+```text
 metaforge-v5/
 ├── 📄 LICENSE                    # Licencia dual (Personal/Comercial)
 ├── 📄 LICENSE-COMMERCIAL         # Términos de licencia enterprise
-├── 📄 README.md                  # Este archivo
-├── 📄 CHANGELOG.md               # Historial de versiones
-├── 📄 CODE_OF_CONDUCT.md         # Código de conducta
-├── 📄 CONTRIBUTING.md            # Guía de contribución
-├── 📄 SECURITY.md                # Política de seguridad
+├── 📄 README.md                  # Este archivo (Guía de inicio)
+├── 📄 CHANGELOG.md               # Historial de versiones y cambios
+├── 📄 .gitignore                 # Exclusión de archivos temporales
 │
-├── 🧠 core/                      # Activos principales
-│   ├── SYSTEM_PROMPT_CORE_v5.md  # Meta-agente constructor
-│   ├── cognitive_primitives_atlas.json  # 54 primitivas cognitivas
+├── 🧠 core/                      # Kernel y Activos Críticos
+│   ├── SYSTEM_PROMPT_MetaForge_v5.md  # El motor (Kernel)
+│   ├── NAVIGATOR_INTERFACE.md         # Interfaz de control (Navigator)
+│   ├── cognitive_primitives_atlas.json # 54 Primitivas cognitivas
 │   ├── libro_maestro_conocimiento_pedagogico.yml
 │   └── libro_maestro_conocimiento_tecnico.yml
 │
-├── 🔧 tools/                     # Herramientas auxiliares
-│   ├── NAVIGATOR_INTERFACE.md    # Navigator humano-máquina
-│   └── runtime_auditor.md        # Auditor de capacidades
+├── 📚 docs/                      # Documentación y Guías
+│   ├── guia_uso.md               # Manual operativo
+│   ├── github_setup_guide.md     # Guía de despliegue en GitHub
+│   └── qr-code.png               # Activo visual de enlace
 │
-├── 📚 docs/                      # Documentación
-│   ├── guia_uso.md               # Guía completa de uso
-│   ├── que-es-asi.md             # Concepto de ASI
-│   ├── arquitectura_doble_modelo.md
-│   ├── protocolo_zero_trust.md
-│   └── ejemplos/                 # Casos de estudio
+├── 🎨 community/                 # Ecosistema de la Comunidad
+│   ├── agents/                   # Índice y plantillas de agentes
+│   └── tools/                    # Índice de herramientas externas
 │
-├── 🎨 community/                 # Contribuciones de la comunidad
-│   ├── agents/                   # Agentes creados por usuarios
-│   ├── tools/                    # Herramientas adicionales
-│   └── integrations/             # Integraciones con sistemas
-│
-├── 💻 scripts/                   # Scripts de utilidad
-│   └── check_license_eligibility.py  # Verificador de licencia
-│
-└── 📖 libro/                     # Recursos para el libro
-    └── insercion_enlace.txt      # Texto para insertar en el libro
+└── 💻 scripts/                   # Automatización y Cumplimiento
+    ├── check_license_eligibility.py # Validador de licencias UE
+    └── sync.sh                   # Script de sincronización industrial
 ```
 
 ---
