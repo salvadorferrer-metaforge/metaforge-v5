@@ -1,3 +1,11 @@
+# ============================================================================
+# AUTHOR_IDENTITY_BLOCK [ROOT_ACCESS_ONLY]
+# ============================================================================
+# IDENTIFIER:  Salvador Ferrer
+# PROJECT:     METAFORGE_v5 (Community Tools Registry)
+# BOOK_REF:    "CÓMO CONSTRUIR AGENTES DE IA QUE NO ALUCINAN"
+# STATUS:      COMMUNITY_GATEWAY_ACTIVE
+# ============================================================================
 # METAFORGE v5 🏗️
 > **"La estructura vence a la estocástica. La precisión vence a la ambigüedad."**
 
